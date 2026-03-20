@@ -1,0 +1,356 @@
+{
+  "nav": {
+    "work": "Work",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Juan Sebastián Lozano Lamus",
+    "title": "Senior Product Designer | E-commerce Strategy",
+    "subtitle": "Design systems and conversion optimization specialist for Premium brands · Bogotá, Colombia",
+    "cta_primary": "View Projects",
+    "cta_secondary": "Contact"
+  },
+  "metrics": [
+    {
+      "number": "1000+",
+      "label": "potential buyers acquired",
+      "company": "Kreditime",
+      "icon": "group"
+    },
+    {
+      "number": "50%",
+      "label": "reduction in discovery friction",
+      "company": "Onda de Mar",
+      "icon": "trending_down"
+    },
+    {
+      "number": "15",
+      "label": "high-conversion pages",
+      "company": "Portfolio",
+      "icon": "edit"
+    },
+    {
+      "number": "+20%",
+      "label": "sales increase (AOV/GMV)",
+      "company": "e-Commerce",
+      "icon": "trending_up"
+    }
+  ],
+  "projects": {
+    "heading": "Projects at Kronotime",
+    "items": [
+      {
+        "id": "kreditime",
+        "title": "Kreditime",
+        "tag": "Fintech",
+        "description": "Digital credit optimization through research & journey mapping",
+        "metric": "1000+ Users",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB-VmJojXOicSqH2T3M0RrrZ7tsw2w-FMJqbyzk2oPcO_oz44Xx6gfeuZ6tedu4Q2BtkzCOSO0BYCjzcor85wU_LyygdSLEJlq_1Pa25J0kL8HY4s74QspULsHx_O8dstaipo0lAAkou1q4oSUb4k1T5LkjhqPCCNekOQabQRRfhR_Rs50zv2Dua3ufnL18q5R5_Ey3ASVmaAxySzns4De98mQM7ubaYYcgQbmWjtpq6lHyaVUuArf2YdkDPa9svlJbFX40tHHYEQ"
+      },
+      {
+        "id": "ondademar",
+        "title": "Onda de Mar",
+        "tag": "eCommerce",
+        "description": "Information architecture transformation for seamless product discovery",
+        "metric": "50% IA Reduction",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDoc0zh4n14eK7AJAIcmsvEQsqyC0UlSTtdfQkjwFzRyTVL2KjtWiZf3pVdvGNINUQ86mv7B4W3QD2hzKEI2Gmw6riApgi3mI5mg64A3rWEsK0evKWfDXk3dSgG-dwM3Y4QMTACn52sw5Kdd2tEbwdliAMXMDrV2ztCwgSf69SGh_U7SHypwcV6u9RDBCD-OH_DVETmOm63S1JcnTh5MroRetuUqREnLhyY84wmN5p5zMXQ3_XWtWwnnZiYlr52rGP10ER3pJQhGg"
+      },
+      {
+        "id": "malva",
+        "title": "Malva",
+        "tag": "Omnichannel",
+        "description": "Unified brand experience across 16 stores and digital channels",
+        "metric": "Design System",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCw89jn5rBFqACdl-Lq6sfJbbBx91lVeje2KdxCJm4VXCx16LmUfzUOLQ7nRoJ6R8Q3ISx5ywpwvqXM5BBmFIfcB5UDGFdS7bzD2uf5BiFtWIU4Rj2Qi3e6JkgxmMhSw1J0YVkB1G6wms6L5lVSBc0K45WlUcsTal64H0PJvPaflV1OiPTm0rree7PUH4ZnC5RYremocliBjUkOn458tYEBXOd2LIGlfuHxckprBz4at0RBi3jTE38vFcgn5OJwvDN0j4FY2t5G1g"
+      }
+    ]
+  },
+  "timeline": {
+    "heading": "Experience at Kronotime S.A.S",
+    "items": [
+      {
+        "role": "Senior Product Designer",
+        "company": "Kronotime S.A.S",
+        "period": "June 2023 — Present",
+        "achievements": [
+          "Qualitative and quantitative research management (heatmaps, interviews, and surveys) for Kreditime, resulting in the acquisition of 1000+ potential buyers.",
+          "Experience architect in taking Kreditime to production; optimizing the sales funnel with a conversion increase from 15% to 20%.",
+          "Establishment of scalable Design Systems and multi-brand information architecture for global clients such as Malva, Onda de Mar, and Invicta.",
+          "Implementation of the Double Diamond methodology to optimize team efficiency and strategic planning via structured Notion documentation."
+        ]
+      },
+      {
+        "role": "Product Designer (UX/UI)",
+        "company": "Kronotime S.A.S",
+        "period": "June 2021 — June 2023",
+        "achievements": [
+          "Led UI redesign for Invicta Mexico, focusing on optimizing checkout flows and a user-centered catalog organization to improve UX.",
+          "Creation of high-fidelity interactive wireframes and dynamic prototypes, ensuring visual and functional consistency through reusable component libraries.",
+          "Cross-functional collaboration in the Kreditime ecosystem under agile methodologies (Scrum) for rapid iteration on complex business requirements.",
+          "Execution of monthly usability and accessibility audits to ensure compliance with global e-commerce standards across active projects."
+        ]
+      },
+      {
+        "role": "UI Designer / UX Researcher",
+        "company": "Superintendencia de Industria y Comercio",
+        "period": "February 2019 — December 2020",
+        "achievements": [
+          "Design and development of interactive digital content for intellectual property education, improving the usability of learning platforms.",
+          "Conducting user research and behavior analysis to identify pedagogical needs and inform educational content design.",
+          "Collaboration with subject-matter experts and stakeholders to ensure successful launch of digital assets aligned with institutional objectives.",
+          "Expert use of Figma and Adobe Creative Suite for high-fidelity wireframes development and prototypes validated with end users."
+        ]
+      }
+    ]
+  },
+  "caseStudies": {
+    "kreditime": {
+      "type": "fintech",
+      "hero_title": "I led the Kreditime experience",
+      "hero_title_parts": {
+        "before": "I led the experience of",
+        "highlight": "Kreditime"
+      },
+      "hero_description": "I led the experience of a fintech product focused on activating buyers and bringing a credit solution to production with a focus on trust and clarity.",
+      "tag": "Fintech Case Study",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB-VmJojXOicSqH2T3M0RrrZ7tsw2w-FMJqbyzk2oPcO_oz44Xx6gfeuZ6tedu4Q2BtkzCOSO0BYCjzcor85wU_LyygdSLEJlq_1Pa25J0kL8HY4s74QspULsHx_O8dstaipo0lAAkou1q4oSUb4k1T5LkjhqPCCNekOQabQRRfhR_Rs50zv2Dua3ufnL18q5R5_Ey3ASVmaAxySzns4De98mQM7ubaYYcgQbmWjtpq6lHyaVUuArf2YdkDPa9svlJbFX40tHHYEQ",
+      "features": [
+        "Heatmap Analysis",
+        "Surveys & Interviews",
+        "Conversion Funnels"
+      ],
+      "overview_label": "Project Overview",
+      "context": "I designed the Kreditime UX experience from research, flow definition, and coordinated work with development. Kreditime emerged as a bet to enable a clearer, more usable credit experience connected with eCommerce.",
+      "context_label": "Context",
+      "problem_label": "The Problem",
+      "problem": "The challenge was not just building a financial interface, but designing a trustworthy experience for people interested in accessing credit without friction at the moment of purchase.",
+      "role_label": "My Role",
+      "role": "Lead Product Designer & UX Researcher",
+      "role_description": "I conducted research with heatmaps, interviews, and surveys to understand behavior, identifying critical pain points in the application process.",
+      "process_title": "Research & Findings",
+      "process_description": "The research allowed us to detect signals of interest, friction, and opportunity within the flow. We used heatmaps to visualize where users dropped off and why.",
+      "process_steps": [
+        "Identification of bottlenecks in document uploading.",
+        "Validation of micro-copy to reduce financial anxiety.",
+        "Mapping the user journey from external checkout."
+      ],
+      "process_image": "/kreditime_process.png",
+      "results_title": "Results Analysis",
+      "results_description": "The implementation of the new information architecture and KYC flow had a measurable impact on both user trust and business conversion.",
+      "period": "2023 Q3 - 2024 Q1",
+      "metrics": [
+        {
+          "number": "+1,000",
+          "label": "Adoption",
+          "desc": "We successfully got a thousand buyers to complete their profile thanks to the removal of redundant fields."
+        },
+        {
+          "number": "20%",
+          "label": "Conversion",
+          "desc": "The seamless integration in the external checkout reduced cognitive load, allowing credit to be perceived as a facilitator."
+        },
+        {
+          "number": "45%",
+          "label": "UX Efficiency",
+          "desc": "The drastic reduction in abandonment is attributed to the new real-time feedback system."
+        }
+      ],
+      "learning_quote": "In fintech, designing trust is just as important as designing usability.",
+      "learning": "In the fintech sector, development speed must be balanced with informational clarity. The user is not just looking for money; they are looking for the peace of mind of understanding their financial commitment.",
+      "decision_images": [
+        {
+          "url": "/kreditime_process.png",
+          "caption": "Wireframe: Simplification"
+        },
+        {
+          "url": "/kreditime_process.png",
+          "caption": "Mockup: Terms Clarity"
+        }
+      ]
+    },
+    "ondademar": {
+      "type": "minimal",
+      "hero_title": "Redesigning the future of Onda de Mar",
+      "hero_title_parts": {
+        "before": "Redesigning the future of",
+        "highlight": "Onda de Mar"
+      },
+      "hero_description": "Transformation of the information architecture for one of Colombia's most iconic fashion brands, improving navigability and conversion.",
+      "tag": "eCommerce Case Study",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDoc0zh4n14eK7AJAIcmsvEQsqyC0UlSTtdfQkjwFzRyTVL2KjtWiZf3pVdvGNINUQ86mv7B4W3QD2hzKEI2Gmw6riApgi3mI5mg64A3rWEsK0evKWfDXk3dSgG-dwM3Y4QMTACn52sw5Kdd2tEbwdliAMXMDrV2ztCwgSf69SGh_U7SHypwcV6u9RDBCD-OH_DVETmOm63S1JcnTh5MroRetuUqREnLhyY84wmN5p5zMXQ3_XWtWwnnZiYlr52rGP10ER3pJQhGg",
+      "features": [
+        "Sitemap Redesign",
+        "Faceted Search",
+        "Visual Consistency"
+      ],
+      "overview_label": "Deep Analysis",
+      "context": "Onda de Mar is an eCommerce platform for swimwear in LATAM. The existing structure required too many clicks to discover relevant products, generating high bounce rates.",
+      "context_label": "Context",
+      "problem_label": "The Challenge",
+      "problem": "Product discovery required excessive pagination. Weak categorization caused users to bounce without purchasing.",
+      "role_label": "My Contribution",
+      "role": "Lead Product Designer",
+      "role_description": "I led and supervised the UX/UI team. Redesigned 15 pages, establishing a new information architecture.",
+      "process_title": "Strategic Implementation",
+      "process_description": "Applied double diamond methodology with user research and iterative testing to simplify navigation.",
+      "process_steps": [
+        "Audit of 500+ SKUs to optimize taxonomy.",
+        "Card Sorting sessions with real users.",
+        "Fid-fidelity faceted navigation prototyping."
+      ],
+      "process_image": "/ondademar_process.png",
+      "results_title": "Impact Analysis",
+      "results_description": "The architecture transformation drastically reduced steps to purchase and increased session time.",
+      "period": "2023 Q1 - 2023 Q3",
+      "metrics": [
+        {
+          "number": "50%",
+          "label": "Discovery",
+          "desc": "Fewer pages required to find any product in the catalog."
+        },
+        {
+          "number": "15%",
+          "label": "Sales",
+          "desc": "Direct correlation between improved search and purchase completion."
+        },
+        {
+          "number": "2x",
+          "label": "Retention",
+          "desc": "Users now visit double the categories per session."
+        }
+      ],
+      "learning_quote": "Simplifying is not about removing elements, it's about adding clarity to the user's path.",
+      "learning": "eCommerce success is not about more features, but about reducing friction. When users find what they are looking for in half the steps, conversion follows naturally.",
+      "decision_images": [
+        {
+          "url": "/ondademar_process.png",
+          "caption": "New IA: Reduced Sitemap"
+        },
+        {
+          "url": "/ondademar_process.png",
+          "caption": "UI: Smart Filters"
+        }
+      ]
+    },
+    "malva": {
+      "type": "premium",
+      "hero_title": "Building the Malva ecosystem",
+      "hero_title_parts": {
+        "before": "Building the ecosystem of",
+        "highlight": "Malva"
+      },
+      "hero_description": "Omnichannel design strategy and scalable design system for 16 physical stores and luxury digital platforms.",
+      "tag": "Design System Study",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCw89jn5rBFqACdl-Lq6sfJbbBx91lVeje2KdxCJm4VXCx16LmUfzUOLQ7nRoJ6R8Q3ISx5ywpwvqXM5BBmFIfcB5UDGFdS7bzD2uf5BiFtWIU4Rj2Qi3e6JkgxmMhSw1J0YVkB1G6wms6L5lVSBc0K45WlUcsTal64H0PJvPaflV1OiPTm0rree7PUH4ZnC5RYremocliBjUkOn458tYEBXOd2LIGlfuHxckprBz4at0RBi3jTE38fFcgn5OJwvDN0j4FY2t5G1g",
+      "features": [
+        "Design Tokens",
+        "Component Library",
+        "Store Integration"
+      ],
+      "overview_label": "Case Context",
+      "context": "Malva operates 16 physical stores and needed a cohesive digital experience that reflected the luxury of its physical brand in the digital environment.",
+      "context_label": "Context",
+      "problem_label": "The Fragmentation",
+      "problem": "Disconnected digital and physical experiences. No unified design language. Store experience was not reflected digitally.",
+      "role_label": "Strategy Lead",
+      "role": "Lead Design Strategist",
+      "role_description": "I led Design Thinking sessions, established the design system, and coordinated omnichannel experience design.",
+      "process_title": "The Systemic Solution",
+      "process_description": "I created a complete library of components and design tokens to ensure consistency across all platforms.",
+      "process_steps": [
+        "Ethnographic research in physical stores.",
+        "Design system architecture (Design Tokens).",
+        "Component library development in Figma."
+      ],
+      "process_image": "/malva_process.png",
+      "results_title": "Strategic Outcomes",
+      "metrics": [
+        {
+          "number": "16",
+          "label": "Stores",
+          "desc": "Fully unified digital branding"
+        },
+        {
+          "number": "100%",
+          "label": "Sync",
+          "desc": "Between web and mobile apps"
+        },
+        {
+          "number": "30%",
+          "label": "Faster",
+          "desc": "Development speed with system"
+        }
+      ],
+      "learning": "Omnichannel isn't about having the same button in all places—it's about consistent logic, familiar patterns, and seamless transitions."
+    }
+  },
+  "caseStudyLabels": {
+    "back": "Back to Projects",
+    "process": "Process",
+    "decisions": "Decisions",
+    "results": "Results",
+    "contact_me": "Contact Me",
+    "context_title": "Project Context",
+    "impact_report": "Impact Report",
+    "period_label": "Period",
+    "final_learning": "Final Learning",
+    "wanna_know_more": "Want to know more about this project?",
+    "contact_btn": "Contact Me",
+    "footer_copy": "Designed with a user-centered approach."
+  },
+  "skills": {
+    "heading": "Core Competencies",
+    "groups": [
+      {
+        "label": "Research & Strategy",
+        "items": [
+          "UX Research",
+          "User Interviews",
+          "Usability Testing",
+          "A/B Testing",
+          "Strategic Design",
+          "Heatmaps",
+          "Usability Test"
+        ]
+      },
+      {
+        "label": "Design & Prototyping",
+        "items": [
+          "Figma",
+          "Prototyping",
+          "Design Systems",
+          "AI Prototyping",
+          "Stitch",
+          "Design Prompting",
+          "Wireframing"
+        ]
+      },
+      {
+        "label": "Product & Delivery",
+        "items": [
+          "Product Thinking",
+          "Agile / Scrum",
+          "Prototype Deployment",
+          "Firebase",
+          "Project Management"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Get in Touch",
+    "subheading": "Let's bridge the gap together. Reach out for collaborations or inquiries.",
+    "name_label": "Name",
+    "name_placeholder": "Your full name",
+    "email_label": "Email",
+    "email_placeholder": "your@email.com",
+    "message_label": "Message",
+    "message_placeholder": "Tell me about your project...",
+    "send_btn": "Send Message"
+  },
+  "footer": {
+    "copy": "Juan Sebastián Lozano Lamus. Designed for impact.",
+    "back_top": "Back to Top"
+  }
+}

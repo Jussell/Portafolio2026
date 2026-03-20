@@ -1,0 +1,90 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+@theme {
+  --color-primary: #0A2540;
+  --color-accent: #60A5FA;
+  --color-accent-dark: #1E40AF;
+  --color-accent-light: #60A5FA;
+  --color-surface: #F1F5F9;
+  --color-text-main: #334155;
+  --color-muted: #94A3B8;
+  --color-text-primary: #0A2540;
+  --color-text-secondary: #64748b;
+
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+  --font-metrics: "Plus Jakarta Sans", sans-serif;
+
+  --animate-marquee: marquee 30s linear infinite;
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+:root {
+  --primary: #0A2540;
+  --accent: #60A5FA;
+  --accent-dark: #1E40AF;
+  --accent-light: #60A5FA;
+  --surface: #F1F5F9;
+  --text-main: #334155;
+  --muted: #94A3B8;
+  --background-light: #FFFFFF;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: white;
+  color: var(--text-main);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-metrics {
+  font-family: var(--font-metrics);
+}
+
+/* Custom Utilities */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.project-card-overlay {
+  background: linear-gradient(0deg, rgba(10, 37, 64, 0.9) 0%, rgba(10, 37, 64, 0.4) 50%, rgba(10, 37, 64, 0) 100%);
+}
+
+.section-padding {
+  padding: 5rem 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding: 8rem 4rem;
+  }
+}
+
+.shadow-soft {
+  box-shadow: 0 4px 14px 0 rgba(10, 37, 64, 0.05);
+}
+
+.shadow-hover {
+  box-shadow: 0 10px 25px -5px rgba(10, 37, 64, 0.1);
+}
