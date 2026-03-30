@@ -10,7 +10,11 @@ const ProjectsSection = () => {
   return (
     <section className="bg-surface/50 w-full py-12 md:py-20" id="projects">
       <div className="max-w-[1400px] mx-auto px-6">
-        <h2 className="sr-only">{t.projects.heading}</h2>
+        <div className="flex flex-col gap-4 mb-10 pt-6 border-t border-muted/20">
+          <h2 className="text-xl font-bold tracking-tight text-primary flex items-center gap-2 uppercase">
+            {t.projects.heading}
+          </h2>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {t.projects.items.map((project, idx) => (
             <Link key={idx} to={`/project/${project.id}`}>

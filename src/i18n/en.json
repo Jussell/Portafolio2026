@@ -38,7 +38,7 @@
     }
   ],
   "projects": {
-    "heading": "Projects at Kronotime",
+    "heading": "My Work",
     "items": [
       {
         "id": "kreditime",
@@ -67,7 +67,7 @@
     ]
   },
   "timeline": {
-    "heading": "Experience at Kronotime S.A.S",
+    "heading": "My Experience",
     "items": [
       {
         "role": "Product Designer",
