@@ -1,10 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import { HiCheckCircle, HiDownload, HiBriefcase } from 'react-icons/hi';
 import { useLang } from '../context/LangContext';
 
 const TimelineCV = () => {
   const { t } = useLang();
+  const [cvLang, setCvLang] = useState('');
+
+  const handleDownload = () => {
+    if (!cvLang) return;
+    const fileUrl = cvLang === 'es' ? '/cv-Juan-lozano-es.pdf' : '/cv-Juan-lozano-en.pdf';
+    const fileName = cvLang === 'es' ? 'cv-Juan-lozano-es.pdf' : 'cv-Juan-lozano-en.pdf';
+    
+    const link = document.createElement('a');
+    link.href = fileUrl;
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   
   // Progress line animation
   const { scrollYProgress } = useScroll();
@@ -32,15 +46,36 @@ const TimelineCV = () => {
               </div>
             </div>
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-primary mb-3">Senior UX/Product Designer</h2>
+              <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-primary mb-3">{t.timeline.senior_title}</h2>
               <p className="text-lg leading-relaxed text-muted max-w-[480px]">
-                Based in Bogotá, I bridge the gap between user needs and business metrics. Specializing in high-conversion flows for LATAM's top fintech and eCommerce platforms.
+                {t.timeline.description}
               </p>
             </div>
-            <button className="flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-full shadow-lg hover:shadow-primary/50 transition-all transform hover:-translate-y-1">
-              <HiDownload />
-              Download Resume
-            </button>
+            <div className="flex flex-col gap-3 w-full max-w-[280px]">
+              <div className="relative">
+                <select 
+                  className="w-full px-4 py-3 border-2 border-surface rounded-xl bg-white text-primary font-medium focus:outline-none focus:border-primary/50 transition-colors shadow-sm appearance-none cursor-pointer"
+                  value={cvLang}
+                  onChange={(e) => setCvLang(e.target.value)}
+                >
+                  <option value="" disabled>{t.timeline.select_cv_lang}</option>
+                  <option value="es">{t.timeline.cv_lang_es}</option>
+                  <option value="en">{t.timeline.cv_lang_en}</option>
+                </select>
+                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-primary">
+                  <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                </div>
+              </div>
+              
+              <button 
+                onClick={handleDownload}
+                disabled={!cvLang}
+                className={`flex items-center justify-center gap-2 px-6 py-3 font-bold rounded-xl shadow-lg transition-all transform ${cvLang ? 'bg-primary text-white hover:shadow-primary/50 hover:-translate-y-1 cursor-pointer' : 'bg-surface text-muted cursor-not-allowed opacity-70'}`}
+              >
+                <HiDownload className="text-xl" />
+                {t.timeline.download_resume}
+              </button>
+            </div>
           </div>
         </div>
 

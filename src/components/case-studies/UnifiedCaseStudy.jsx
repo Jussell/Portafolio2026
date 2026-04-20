@@ -12,9 +12,10 @@ import {
 } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
 import { useLang } from '../../context/LangContext';
+import BentoGallery from './BentoGallery';
 
 const UnifiedCaseStudy = ({ data }) => {
-  const { lang, t } = useLang();
+  const { lang, t, toggleLang } = useLang();
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -23,20 +24,7 @@ const UnifiedCaseStudy = ({ data }) => {
   if (!data) return null;
 
   // Labels used in the template (localized)
-  const labels = t.caseStudyLabels || {
-    back: lang === 'es' ? 'Volver a Proyectos' : 'Back to Projects',
-    process: lang === 'es' ? 'Proceso' : 'Process',
-    decisions: lang === 'es' ? 'Decisiones' : 'Decisions',
-    results: lang === 'es' ? 'Resultados' : 'Results',
-    contact_me: lang === 'es' ? 'Contáctame' : 'Contact Me',
-    context_title: lang === 'es' ? 'Contexto del Proyecto' : 'Project Context',
-    impact_report: lang === 'es' ? 'Reporte de Impacto' : 'Impact Report',
-    period_label: lang === 'es' ? 'Periodo' : 'Period',
-    final_learning: lang === 'es' ? 'Aprendizaje Final' : 'Final Learning',
-    wanna_know_more: lang === 'es' ? '¿Quieres saber más sobre este proyecto?' : 'Want to know more about this project?',
-    contact_btn: lang === 'es' ? 'Contactar conmigo' : 'Contact Me',
-    footer_copy: lang === 'es' ? 'Realizado con enfoque en diseño centrado en el usuario.' : 'Designed with a user-centered approach.'
-  };
+  const labels = t.caseStudyLabels;
 
   return (
     <div className="bg-[#F8FAFC] text-slate-900 font-sans selection:bg-accent/30">
@@ -47,16 +35,37 @@ const UnifiedCaseStudy = ({ data }) => {
             <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[#0A2540] text-white group-hover:bg-accent transition-colors">
               <HiArrowLeft />
             </div>
-            <span className="text-xl font-extrabold tracking-tight text-[#0A2540] uppercase">{data.tag.split(' ')[0]}</span>
+            <span className="text-xl font-extrabold tracking-tight text-[#0A2540] uppercase hidden sm:block">{data.tag.split(' ')[0]}</span>
           </Link>
-          <nav className="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600">
-            <a href="#proceso" className="hover:text-[#0A2540] transition-colors">{labels.process}</a>
-            <a href="#decisiones" className="hover:text-[#0A2540] transition-colors">{labels.decisions}</a>
-            <a href="#resultados" className="hover:text-[#0A2540] transition-colors">{labels.results}</a>
-            <Link to="/#contact" className="rounded-full bg-[#0A2540] px-6 py-2.5 text-white hover:bg-[#0A2540]/90 transition-all shadow-lg shadow-[#0A2540]/20">
-              {labels.contact_me}
-            </Link>
-          </nav>
+          
+          <div className="flex items-center gap-4">
+            {/* Language Toggle (Always visible) */}
+            <button
+              onClick={toggleLang}
+              className="flex items-center gap-2 px-2 py-1 rounded-md hover:bg-slate-50 transition-colors"
+            >
+              <span className={`text-[10px] font-bold ${lang === 'en' ? 'text-primary' : 'text-muted'}`}>EN</span>
+              <div className="w-8 h-4 bg-muted/20 rounded-full relative">
+                <motion.div
+                  animate={{ x: lang === 'en' ? 2 : 18 }}
+                  className="absolute top-0.5 left-0 w-3 h-3 bg-primary rounded-full"
+                />
+              </div>
+              <span className={`text-[10px] font-bold ${lang === 'es' ? 'text-primary' : 'text-muted'}`}>ES</span>
+            </button>
+
+            <nav className="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600 ml-4">
+              <a href="#proceso" className="hover:text-[#0A2540] transition-colors">{labels.process}</a>
+              <a href="#decisiones" className="hover:text-[#0A2540] transition-colors">{labels.decisions}</a>
+              <a href="#resultados" className="hover:text-[#0A2540] transition-colors">{labels.results}</a>
+              
+              <div className="h-6 w-[1px] bg-slate-200 mx-2" />
+
+              <Link to="/#contact" className="rounded-full bg-[#0A2540] px-6 py-2.5 text-white hover:bg-[#0A2540]/90 transition-all shadow-lg shadow-[#0A2540]/20">
+                {labels.contact_me}
+              </Link>
+            </nav>
+          </div>
         </div>
       </header>
 
@@ -86,11 +95,11 @@ const UnifiedCaseStudy = ({ data }) => {
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center gap-2 rounded-xl border border-slate-100 bg-slate-50 p-4 shadow-sm">
                   <HiOutlineShieldCheck className="text-accent text-xl" />
-                  <span className="text-sm font-semibold text-[#0A2540]">{lang === 'es' ? 'Diseño Enfocado en Confianza' : 'Trust-Focused Design'}</span>
+                  <span className="text-sm font-semibold text-[#0A2540]">{labels.trust_design}</span>
                 </div>
                 <div className="flex items-center gap-2 rounded-xl border border-slate-100 bg-slate-50 p-4 shadow-sm">
                   <HiOutlineLightningBolt className="text-accent text-xl" />
-                  <span className="text-sm font-semibold text-[#0A2540]">{lang === 'es' ? 'UX sin Fricción' : 'Frictionless UX'}</span>
+                  <span className="text-sm font-semibold text-[#0A2540]">{labels.frictionless_ux}</span>
                 </div>
               </div>
             </motion.div>
@@ -114,7 +123,7 @@ const UnifiedCaseStudy = ({ data }) => {
         <section className="bg-slate-50 py-20 px-6 md:px-20">
           <div className="max-w-4xl mx-auto">
             <div className="mb-16">
-              <h2 className="text-3xl font-bold text-[#0A2540] mb-6">{labels.context_title}</h2>
+              <h2 className="text-3xl font-bold text-[#0A2540] mb-6">{data.context_label || labels.context_title}</h2>
               <p className="text-xl leading-relaxed text-slate-600">
                 {data.context}
               </p>
@@ -127,7 +136,7 @@ const UnifiedCaseStudy = ({ data }) => {
                 <div className="size-12 bg-[#0A2540]/5 rounded-xl flex items-center justify-center mb-6 text-[#0A2540]">
                   <HiOutlineExclamation className="text-2xl" />
                 </div>
-                <h3 className="text-xl font-bold text-[#0A2540] mb-4">{data.problem_label}</h3>
+                <h3 className="text-xl font-bold text-[#0A2540] mb-4">{data.problem_label || "Problem"}</h3>
                 <p className="text-slate-600 leading-relaxed">
                   {data.problem}
                 </p>
@@ -139,7 +148,7 @@ const UnifiedCaseStudy = ({ data }) => {
                 <div className="size-12 bg-[#0A2540]/5 rounded-xl flex items-center justify-center mb-6 text-[#0A2540]">
                   <HiOutlineUserCircle className="text-2xl" />
                 </div>
-                <h3 className="text-xl font-bold text-[#0A2540] mb-4">{data.role_label}</h3>
+                <h3 className="text-xl font-bold text-[#0A2540] mb-4">{data.role_label || "Role"}</h3>
                 <p className="text-slate-600 leading-relaxed">
                   {data.role_description || data.role}
                 </p>
@@ -175,7 +184,7 @@ const UnifiedCaseStudy = ({ data }) => {
                     alt="Process Visualization"
                   />
                   <div className="absolute bottom-4 left-4 right-4 bg-white/10 backdrop-blur-md p-3 rounded-lg border border-white/20">
-                    <p className="text-xs text-white font-medium">{lang === 'es' ? 'Análisis de Proceso: Visualización de Hallazgos' : 'Process Analysis: Finding Visualization'}</p>
+                    <p className="text-xs text-white font-medium">{labels.process_analysis}</p>
                   </div>
                 </div>
               </div>
@@ -184,13 +193,31 @@ const UnifiedCaseStudy = ({ data }) => {
             {/* Decisions Section */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12 border-t border-slate-100" id="decisiones">
               <div className="md:col-span-1">
-                <h3 className="text-3xl font-bold text-[#0A2540] mb-6">{lang === 'es' ? 'Decisiones Clave' : 'Key Decisions'}</h3>
-                <p className="text-slate-600 mb-6">
-                  {data.decisions_description || (lang === 'es' ? 'Priorizamos la experiencia funcional sobre lo recargado.' : 'We prioritized functional experience over cluttered visual solutions.')}
-                </p>
+                <h3 className="text-3xl font-bold text-[#0A2540] mb-6">{data.decisions_title || labels.key_decisions}</h3>
+                {data.decisions ? (
+                  <div className="space-y-6 mb-8">
+                    {data.decisions.map((decision, i) => (
+                      <div key={i} className="flex gap-4">
+                        <div className="flex-shrink-0 mt-1">
+                          <div className="w-6 h-6 rounded-full bg-accent/10 flex items-center justify-center text-accent font-bold text-xs">
+                            {i + 1}
+                          </div>
+                        </div>
+                        <div>
+                          <h4 className="text-lg font-bold text-[#0A2540] mb-2">{decision.title}</h4>
+                          <p className="text-sm text-slate-600">{decision.description}</p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="text-slate-600 mb-6">
+                    {data.decisions_description || labels.decisions_default}
+                  </p>
+                )}
                 <div className="p-6 bg-accent/5 rounded-2xl border border-accent/10">
                   <p className="text-[#0A2540] font-bold italic">
-                    "{data.learning_quote || (lang === 'es' ? 'En diseño, la claridad es el puente hacia la conversión.' : 'In design, clarity is the bridge to conversion.')}"
+                    "{data.learning_quote || labels.learning_default}"
                   </p>
                 </div>
               </div>
@@ -206,13 +233,13 @@ const UnifiedCaseStudy = ({ data }) => {
                         <div className="w-full h-48 bg-slate-100 rounded-xl mb-4 flex items-center justify-center">
                           <span className="text-slate-400 font-bold uppercase tracking-widest text-xs">Wireframe</span>
                         </div>
-                        <p className="text-sm font-bold text-[#0A2540]">{lang === 'es' ? 'Wireframe: Estructura' : 'Wireframe: Structure'}</p>
+                        <p className="text-sm font-bold text-[#0A2540]">{labels.wireframe_label}</p>
                       </div>
                       <div className="rounded-2xl overflow-hidden border border-slate-200 bg-white p-4 shadow-sm">
                         <div className="w-full h-48 bg-slate-100 rounded-xl mb-4 flex items-center justify-center">
                           <span className="text-slate-400 font-bold uppercase tracking-widest text-xs">Mockup</span>
                         </div>
-                        <p className="text-sm font-bold text-[#0A2540]">{lang === 'es' ? 'Mockup: Visual' : 'Mockup: Visual'}</p>
+                        <p className="text-sm font-bold text-[#0A2540]">{labels.mockup_label}</p>
                       </div>
                     </>
                   )}
@@ -259,16 +286,7 @@ const UnifiedCaseStudy = ({ data }) => {
                 </div>
               ))}
             </div>
-            <div className="mt-12 flex items-center justify-center">
-              <div className="flex items-center gap-8 px-6 py-3 rounded-full bg-slate-50 border border-slate-100 text-xs font-semibold text-slate-400">
-                <div className="flex items-center gap-2">
-                  <div className="h-1.5 w-1.5 rounded-full bg-emerald-500"></div> KPI REACHED
-                </div>
-                <div className="flex items-center gap-2">
-                  <div className="h-1.5 w-1.5 rounded-full bg-accent"></div> AUDITED DATA
-                </div>
-              </div>
-            </div>
+
           </div>
         </section>
 
@@ -291,6 +309,14 @@ const UnifiedCaseStudy = ({ data }) => {
             </div>
           </div>
         </section>
+
+        {/* Bento Gallery */}
+        {data.bentoGallery && (
+          <BentoGallery
+            items={data.bentoGallery.items}
+            heading={data.bentoGallery.heading}
+          />
+        )}
       </main>
 
     </div>

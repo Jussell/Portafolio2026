@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import ProjectsSection from './components/ProjectsSection';
@@ -20,10 +20,13 @@ const Home = () => (
 );
 
 function App() {
+  const location = useLocation();
+  const isProjectPage = location.pathname.startsWith('/project/');
+
   return (
     <LangProvider>
       <div className="bg-white min-h-screen selection:bg-accent/30">
-        <Navbar />
+        {!isProjectPage && <Navbar />}
         <main>
           <Routes>
             <Route path="/" element={<Home />} />

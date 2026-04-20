@@ -6,15 +6,21 @@
   },
   "hero": {
     "name": "Juan Sebastián Lozano Lamus",
-    "title": "Senior Product Designer | E-commerce Strategy",
-    "subtitle": "Design systems and conversion optimization specialist for Premium brands · Bogotá, Colombia",
+    "title": "Product Designer | UX & Growth | Ecommerce",
+    "subtitle": "I design high-conversion ecommerce and fintech experiences by aligning user behavior, business goals, and product decisions.",
     "cta_primary": "View Projects",
     "cta_secondary": "Contact"
   },
   "metrics": [
     {
+      "number": "+20%",
+      "label": "conversion increase",
+      "company": "Kreditime",
+      "icon": "trending_up"
+    },
+    {
       "number": "1000+",
-      "label": "potential buyers acquired",
+      "label": "qualified users acquired",
       "company": "Kreditime",
       "icon": "group"
     },
@@ -25,81 +31,84 @@
       "icon": "trending_down"
     },
     {
-      "number": "15",
-      "label": "high-conversion pages",
-      "company": "Portfolio",
-      "icon": "edit"
-    },
-    {
-      "number": "+20%",
-      "label": "sales increase (AOV/GMV)",
-      "company": "e-Commerce",
-      "icon": "trending_up"
+      "number": "30%",
+      "label": "faster product delivery",
+      "company": "Malva",
+      "icon": "bolt"
     }
   ],
   "projects": {
-    "heading": "My Work",
+    "heading": "Selected Work",
     "items": [
       {
         "id": "kreditime",
         "title": "Kreditime",
         "tag": "Fintech",
-        "description": "Digital credit optimization through research & journey mapping",
-        "metric": "1000+ Users",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB-VmJojXOicSqH2T3M0RrrZ7tsw2w-FMJqbyzk2oPcO_oz44Xx6gfeuZ6tedu4Q2BtkzCOSO0BYCjzcor85wU_LyygdSLEJlq_1Pa25J0kL8HY4s74QspULsHx_O8dstaipo0lAAkou1q4oSUb4k1T5LkjhqPCCNekOQabQRRfhR_Rs50zv2Dua3ufnL18q5R5_Ey3ASVmaAxySzns4De98mQM7ubaYYcgQbmWjtpq6lHyaVUuArf2YdkDPa9svlJbFX40tHHYEQ"
+        "description": "Optimized credit onboarding to increase conversion and reduce drop-off during checkout",
+        "metric": "+20% Conversion",
+        "image": "/kreditime_cover.png"
       },
       {
         "id": "ondademar",
         "title": "Onda de Mar",
         "tag": "eCommerce",
-        "description": "Information architecture transformation for seamless product discovery",
-        "metric": "50% IA Reduction",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDoc0zh4n14eK7AJAIcmsvEQsqyC0UlSTtdfQkjwFzRyTVL2KjtWiZf3pVdvGNINUQ86mv7B4W3QD2hzKEI2Gmw6riApgi3mI5mg64A3rWEsK0evKWfDXk3dSgG-dwM3Y4QMTACn52sw5Kdd2tEbwdliAMXMDrV2ztCwgSf69SGh_U7SHypwcV6u9RDBCD-OH_DVETmOm63S1JcnTh5MroRetuUqREnLhyY84wmN5p5zMXQ3_XWtWwnnZiYlr52rGP10ER3pJQhGg"
+        "description": "Redesigned product discovery to reduce friction and improve ecommerce conversion",
+        "metric": "50% Fewer Steps",
+        "image": "/ondademar_cover.png"
       },
       {
         "id": "malva",
         "title": "Malva",
         "tag": "Omnichannel",
-        "description": "Unified brand experience across 16 stores and digital channels",
-        "metric": "Design System",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCw89jn5rBFqACdl-Lq6sfJbbBx91lVeje2KdxCJm4VXCx16LmUfzUOLQ7nRoJ6R8Q3ISx5ywpwvqXM5BBmFIfcB5UDGFdS7bzD2uf5BiFtWIU4Rj2Qi3e6JkgxmMhSw1J0YVkB1G6wms6L5lVSBc0K45WlUcsTal64H0PJvPaflV1OiPTm0rree7PUH4ZnC5RYremocliBjUkOn458tYEBXOd2LIGlfuHxckprBz4at0RBi3jTE38vFcgn5OJwvDN0j4FY2t5G1g"
+        "description": "Built a scalable design system to unify experience and accelerate delivery",
+        "metric": "30% Faster Delivery",
+        "image": "/malva_cover.png"
       }
     ]
   },
   "timeline": {
-    "heading": "My Experience",
+    "heading": "Professional Experience",
+    "senior_title": "Product Designer",
+    "description": "Product Designer with 5 years of experience in ecommerce, combining user research and product thinking to deliver measurable business outcomes. I define and improve digital experiences by identifying user needs, analyzing behavior, and aligning solutions with business goals and technical constraints. My work focuses on optimizing conversion, product discoverability, and delivery efficiency through iterative design and cross-functional collaboration.",
+    "download_resume": "Download Resume",
+    "select_cv_lang": "Select CV Language",
+    "cv_lang_es": "Spanish",
+    "cv_lang_en": "English",
     "items": [
       {
-        "role": "Product Designer",
-        "company": "Kronotime S.A.S",
-        "period": "June 2023 — Present",
+        "role": "Product Designer (Ecommerce Platforms)",
+        "company": "KRONOTIME",
+        "period": "2025 - Present",
         "achievements": [
-          "Qualitative and quantitative research management (heatmaps, interviews, and surveys) for Kreditime, resulting in the acquisition of 1000+ potential buyers.",
-          "Experience architect in taking Kreditime to production; optimizing the sales funnel with a conversion increase from 15% to 20%.",
-          "Establishment of scalable Design Systems and multi-brand information architecture for global clients such as Malva, Onda de Mar, and Invicta.",
-          "Implementation of the Double Diamond methodology to optimize team efficiency and strategic planning via structured Notion documentation."
+          "Led the design and delivery of ecommerce features, balancing user experience, business goals, and technical constraints.",
+          "Applied UX analysis to identify friction in key flows (product discovery, checkout), proposing improvements during development cycles.",
+          "Implemented generative AI workflows, reducing feature delivery time by 50% while maintaining experience quality.",
+          "Coordinated with cross-functional teams to ensure product requirements and UX decisions were correctly implemented.",
+          "Contributed to continuous product improvement by identifying blockers, usability issues, and optimization opportunities."
         ]
       },
       {
-        "role": "UX Designer",
-        "company": "Kronotime S.A.S",
-        "period": "June 2021 — June 2023",
+        "role": "Product Designer (UX & Growth)",
+        "company": "KRONOTIME",
+        "period": "2023 - 2024",
         "achievements": [
-          "Led UI redesign for Invicta Mexico, focusing on optimizing checkout flows and a user-centered catalog organization to improve UX.",
-          "Creation of high-fidelity interactive wireframes and dynamic prototypes, ensuring visual and functional consistency through reusable component libraries.",
-          "Cross-functional collaboration in the Kreditime ecosystem under agile methodologies (Scrum) for rapid iteration on complex business requirements.",
-          "Execution of monthly usability and accessibility audits to ensure compliance with global e-commerce standards across active projects."
+          "Led redesign initiatives across 15+ ecommerce sites, improving navigation, information architecture, and conversion flows.",
+          "Identified user and business opportunities through research and behavioral analysis, translating insights into product improvements.",
+          "Reduced pagination by 50% on Onda de Mar, improving product discoverability and user engagement.",
+          "Contributed to Kreditime product growth, generating 1,000+ leads and increasing conversion rates by 15-20%.",
+          "Facilitated workshops to align stakeholders on user needs, product priorities, and solution direction.",
+          "Implemented structured design processes (Double Diamond), improving clarity in decision-making and delivery."
         ]
       },
       {
-        "role": "UI Designer",
-        "company": "Superintendencia de Industria y Comercio",
-        "period": "February 2019 — December 2020",
+        "role": "UX/UI Designer (Product-focused)",
+        "company": "KRONOTIME",
+        "period": "2021 - 2022",
         "achievements": [
-          "Design and development of interactive digital content for intellectual property education, improving the usability of learning platforms.",
-          "Conducting user research and behavior analysis to identify pedagogical needs and inform educational content design.",
-          "Collaboration with subject-matter experts and stakeholders to ensure successful launch of digital assets aligned with institutional objectives.",
-          "Expert use of Figma and Adobe Creative Suite for high-fidelity wireframes development and prototypes validated with end users."
+          "Supported product improvements through usability testing, research insights, and iterative design.",
+          "Designed wireframes and prototypes to validate solutions and improve user interaction flows.",
+          "Collaborated with product and development teams in agile environments to deliver continuous improvements.",
+          "Conducted usability audits to identify friction points and support product optimization."
         ]
       }
     ]
@@ -107,182 +116,254 @@
   "caseStudies": {
     "kreditime": {
       "type": "fintech",
-      "hero_title": "I led the Kreditime experience",
+      "hero_title": "Improving credit adoption in ecommerce checkout",
       "hero_title_parts": {
-        "before": "I led the experience of",
+        "before": "Improving credit adoption in",
         "highlight": "Kreditime"
       },
-      "hero_description": "I led the experience of a fintech product focused on activating buyers and bringing a credit solution to production with a focus on trust and clarity.",
+      "hero_description": "I led the design of a fintech credit experience embedded in ecommerce checkout, focused on increasing user activation and conversion.",
       "tag": "Fintech Case Study",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB-VmJojXOicSqH2T3M0RrrZ7tsw2w-FMJqbyzk2oPcO_oz44Xx6gfeuZ6tedu4Q2BtkzCOSO0BYCjzcor85wU_LyygdSLEJlq_1Pa25J0kL8HY4s74QspULsHx_O8dstaipo0lAAkou1q4oSUb4k1T5LkjhqPCCNekOQabQRRfhR_Rs50zv2Dua3ufnL18q5R5_Ey3ASVmaAxySzns4De98mQM7ubaYYcgQbmWjtpq6lHyaVUuArf2YdkDPa9svlJbFX40tHHYEQ",
+      "image": "/kreditime_hero.png",
       "features": [
-        "Heatmap Analysis",
-        "Surveys & Interviews",
+        "Behavioral Analysis",
+        "KYC Optimization",
         "Conversion Funnels"
       ],
       "overview_label": "Project Overview",
-      "context": "I designed the Kreditime UX experience from research, flow definition, and coordinated work with development. Kreditime emerged as a bet to enable a clearer, more usable credit experience connected with eCommerce.",
       "context_label": "Context",
-      "problem_label": "The Problem",
-      "problem": "The challenge was not just building a financial interface, but designing a trustworthy experience for people interested in accessing credit without friction at the moment of purchase.",
+      "context": "Kreditime is a fintech solution integrated into ecommerce platforms to offer credit at the moment of purchase. Despite user interest, adoption was low due to friction in onboarding and lack of trust in financial interactions.",
+      "problem_label": "Problem",
+      "problem": "Users dropped off during the credit onboarding process due to complex KYC requirements, unclear financial terms, and a disconnected experience from the ecommerce checkout flow.",
       "role_label": "My Role",
-      "role": "Lead Product Designer & UX Researcher",
-      "role_description": "I conducted research with heatmaps, interviews, and surveys to understand behavior, identifying critical pain points in the application process.",
-      "process_title": "Research & Findings",
-      "process_description": "The research allowed us to detect signals of interest, friction, and opportunity within the flow. We used heatmaps to visualize where users dropped off and why.",
+      "role": "Lead Product Designer",
+      "role_description": "I defined the end-to-end credit experience, conducted research (heatmaps, surveys, interviews), identified friction points, and collaborated with developers to implement improvements within real checkout environments.",
+      "process_title": "Hypothesis & Approach",
+      "process_description": "We hypothesized that simplifying onboarding, improving financial clarity, and integrating the experience into checkout would increase trust and conversion.",
       "process_steps": [
-        "Identification of bottlenecks in document uploading.",
-        "Validation of micro-copy to reduce financial anxiety.",
-        "Mapping the user journey from external checkout."
+        "Analyze user behavior through heatmaps and drop-off points.",
+        "Identify friction in KYC and onboarding flows.",
+        "Iterate solutions based on real usage patterns."
       ],
-      "process_image": "/kreditime_process.png",
-      "results_title": "Results Analysis",
-      "results_description": "The implementation of the new information architecture and KYC flow had a measurable impact on both user trust and business conversion.",
+      "process_image": "/kreditime_process_01.png",
+      "decisions_title": "Key Product Decisions",
+      "decisions": [
+        {
+          "title": "Reduce friction in KYC flow",
+          "description": "Simplified onboarding by removing unnecessary fields, introducing progressive steps, and adding real-time validation feedback to reduce cognitive load."
+        },
+        {
+          "title": "Increase trust through clarity",
+          "description": "Simplified financial language, highlighted key terms (fees, installments, total cost), and improved visual hierarchy to make commitments understandable."
+        },
+        {
+          "title": "Embed credit into checkout",
+          "description": "Integrated Kreditime directly into the ecommerce checkout to reduce context switching and create a seamless experience."
+        },
+        {
+          "title": "Iterate using behavioral data",
+          "description": "Used heatmaps and funnel analysis to identify friction points and continuously optimize the experience."
+        }
+      ],
+      "results_title": "Outcome",
+      "results_description": "The redesigned onboarding and checkout integration significantly improved adoption and conversion rates.",
       "period": "2023 Q3 - 2024 Q1",
       "metrics": [
         {
           "number": "+1,000",
-          "label": "Adoption",
-          "desc": "We successfully got a thousand buyers to complete their profile thanks to the removal of redundant fields."
+          "label": "Qualified Users",
+          "desc": "Users successfully completed onboarding after simplifying the process and reducing friction."
         },
         {
-          "number": "20%",
-          "label": "Conversion",
-          "desc": "The seamless integration in the external checkout reduced cognitive load, allowing credit to be perceived as a facilitator."
+          "number": "15% → 20%",
+          "label": "Conversion Rate",
+          "desc": "Improved conversion by integrating credit into checkout and reducing drop-off during KYC."
         },
         {
-          "number": "45%",
-          "label": "UX Efficiency",
-          "desc": "The drastic reduction in abandonment is attributed to the new real-time feedback system."
+          "number": "↓ Drop-off",
+          "label": "KYC Abandonment",
+          "desc": "Significant reduction in abandonment during identity verification stages."
         }
       ],
-      "learning_quote": "In fintech, designing trust is just as important as designing usability.",
-      "learning": "In the fintech sector, development speed must be balanced with informational clarity. The user is not just looking for money; they are looking for the peace of mind of understanding their financial commitment.",
+      "learning_quote": "In fintech, trust and clarity directly impact conversion.",
+      "learning": "Financial products require more than usability—they require transparency and confidence. Simplifying processes and aligning the experience with user expectations can significantly increase adoption.",
       "decision_images": [
         {
-          "url": "/kreditime_process.png",
-          "caption": "Wireframe: Simplification"
+          "url": "/kreditime_decision_01.png",
+          "caption": "Onboarding Simplification"
         },
         {
-          "url": "/kreditime_process.png",
-          "caption": "Mockup: Terms Clarity"
+          "url": "/kreditime_decision_02.png",
+          "caption": "Financial Clarity UI"
         }
       ]
     },
     "ondademar": {
-      "type": "minimal",
-      "hero_title": "Redesigning the future of Onda de Mar",
+      "type": "ecommerce",
+      "hero_title": "Optimizing product discovery to increase conversion",
       "hero_title_parts": {
-        "before": "Redesigning the future of",
+        "before": "Optimizing product discovery in",
         "highlight": "Onda de Mar"
       },
-      "hero_description": "Transformation of the information architecture for one of Colombia's most iconic fashion brands, improving navigability and conversion.",
+      "hero_description": "I redesigned product discovery flows to reduce friction and improve conversion in a high-volume ecommerce platform.",
       "tag": "eCommerce Case Study",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDoc0zh4n14eK7AJAIcmsvEQsqyC0UlSTtdfQkjwFzRyTVL2KjtWiZf3pVdvGNINUQ86mv7B4W3QD2hzKEI2Gmw6riApgi3mI5mg64A3rWEsK0evKWfDXk3dSgG-dwM3Y4QMTACn52sw5Kdd2tEbwdliAMXMDrV2ztCwgSf69SGh_U7SHypwcV6u9RDBCD-OH_DVETmOm63S1JcnTh5MroRetuUqREnLhyY84wmN5p5zMXQ3_XWtWwnnZiYlr52rGP10ER3pJQhGg",
+      "image": "/ondademar_hero.png",
       "features": [
-        "Sitemap Redesign",
+        "Information Architecture",
         "Faceted Search",
-        "Visual Consistency"
+        "Behavioral Analysis"
       ],
-      "overview_label": "Deep Analysis",
-      "context": "Onda de Mar is an eCommerce platform for swimwear in LATAM. The existing structure required too many clicks to discover relevant products, generating high bounce rates.",
+      "overview_label": "Project Overview",
       "context_label": "Context",
-      "problem_label": "The Challenge",
-      "problem": "Product discovery required excessive pagination. Weak categorization caused users to bounce without purchasing.",
-      "role_label": "My Contribution",
+      "context": "Onda de Mar is a premium swimwear ecommerce brand in LATAM with a large product catalog. Users struggled to find relevant products due to inefficient categorization and excessive navigation steps.",
+      "problem_label": "Problem",
+      "problem": "Product discovery required too many steps due to poor information architecture and weak filtering systems, leading to high bounce rates and lost sales opportunities.",
+      "role_label": "My Role",
       "role": "Lead Product Designer",
-      "role_description": "I led and supervised the UX/UI team. Redesigned 15 pages, establishing a new information architecture.",
-      "process_title": "Strategic Implementation",
-      "process_description": "Applied double diamond methodology with user research and iterative testing to simplify navigation.",
+      "role_description": "I led the redesign of product discovery, conducted research, restructured the information architecture, and worked with cross-functional teams to implement scalable solutions.",
+      "process_title": "Hypothesis & Approach",
+      "process_description": "We hypothesized that simplifying navigation, improving categorization, and introducing better filtering would reduce friction and increase product discoverability and conversion.",
       "process_steps": [
-        "Audit of 500+ SKUs to optimize taxonomy.",
-        "Card Sorting sessions with real users.",
-        "Fid-fidelity faceted navigation prototyping."
+        "Audit of 500+ SKUs to identify categorization issues.",
+        "Card sorting sessions to understand user mental models.",
+        "Analysis of navigation behavior and drop-off points.",
+        "Iterative prototyping of filtering and navigation systems."
       ],
-      "process_image": "/ondademar_process.png",
-      "results_title": "Impact Analysis",
-      "results_description": "The architecture transformation drastically reduced steps to purchase and increased session time.",
+      "process_image": "/ondademar_process_01.png",
+      "decisions_title": "Key Product Decisions",
+      "decisions": [
+        {
+          "title": "Simplify information architecture",
+          "description": "Reduced unnecessary categories and reorganized taxonomy based on user mental models to improve navigation clarity."
+        },
+        {
+          "title": "Introduce faceted search and filters",
+          "description": "Implemented dynamic filtering (size, color, category) to allow users to narrow results faster and reduce browsing effort."
+        },
+        {
+          "title": "Reduce navigation depth",
+          "description": "Minimized the number of steps required to reach product pages, improving efficiency in product discovery."
+        },
+        {
+          "title": "Standardize product listing experience",
+          "description": "Created consistent UI patterns across listing pages to improve scanning and decision-making."
+        }
+      ],
+      "results_title": "Outcome",
+      "results_description": "The redesign significantly improved product discoverability and reduced friction across the browsing experience.",
       "period": "2023 Q1 - 2023 Q3",
       "metrics": [
         {
           "number": "50%",
-          "label": "Discovery",
-          "desc": "Fewer pages required to find any product in the catalog."
+          "label": "Reduction in navigation steps",
+          "desc": "Users required fewer interactions to find products within the catalog."
         },
         {
-          "number": "15%",
-          "label": "Sales",
-          "desc": "Direct correlation between improved search and purchase completion."
+          "number": "+15%",
+          "label": "Increase in sales",
+          "desc": "Improved product discovery directly impacted purchase completion."
         },
         {
           "number": "2x",
-          "label": "Retention",
-          "desc": "Users now visit double the categories per session."
+          "label": "Category exploration",
+          "desc": "Users browsed more categories per session due to improved navigation clarity."
         }
       ],
-      "learning_quote": "Simplifying is not about removing elements, it's about adding clarity to the user's path.",
-      "learning": "eCommerce success is not about more features, but about reducing friction. When users find what they are looking for in half the steps, conversion follows naturally.",
+      "learning_quote": "Reducing friction in discovery directly impacts conversion.",
+      "learning": "In ecommerce, users don't need more options—they need better paths to find them. Structuring information around user mental models is key to improving both experience and business performance.",
       "decision_images": [
         {
-          "url": "/ondademar_process.png",
-          "caption": "New IA: Reduced Sitemap"
+          "url": "/ondademar_decision_01.png",
+          "caption": "Optimized Information Architecture"
         },
         {
-          "url": "/ondademar_process.png",
-          "caption": "UI: Smart Filters"
+          "url": "/ondademar_decision_02.png",
+          "caption": "Faceted Filtering System"
         }
       ]
     },
     "malva": {
-      "type": "premium",
-      "hero_title": "Building the Malva ecosystem",
+      "type": "omnichannel",
+      "hero_title": "Scaling a unified omnichannel experience",
       "hero_title_parts": {
-        "before": "Building the ecosystem of",
+        "before": "Scaling the experience of",
         "highlight": "Malva"
       },
-      "hero_description": "Omnichannel design strategy and scalable design system for 16 physical stores and luxury digital platforms.",
-      "tag": "Design System Study",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCw89jn5rBFqACdl-Lq6sfJbbBx91lVeje2KdxCJm4VXCx16LmUfzUOLQ7nRoJ6R8Q3ISx5ywpwvqXM5BBmFIfcB5UDGFdS7bzD2uf5BiFtWIU4Rj2Qi3e6JkgxmMhSw1J0YVkB1G6wms6L5lVSBc0K45WlUcsTal64H0PJvPaflV1OiPTm0rree7PUH4ZnC5RYremocliBjUkOn458tYEBXOd2LIGlfuHxckprBz4at0RBi3jTE38fFcgn5OJwvDN0j4FY2t5G1g",
+      "hero_description": "I designed a scalable product system to unify digital and physical experiences, improving consistency and accelerating product delivery.",
+      "tag": "Omnichannel Product Case Study",
+      "image": "/malva_hero.png",
       "features": [
-        "Design Tokens",
-        "Component Library",
-        "Store Integration"
+        "Design System",
+        "Omnichannel Strategy",
+        "Operational Efficiency"
       ],
-      "overview_label": "Case Context",
-      "context": "Malva operates 16 physical stores and needed a cohesive digital experience that reflected the luxury of its physical brand in the digital environment.",
+      "overview_label": "Project Overview",
       "context_label": "Context",
-      "problem_label": "The Fragmentation",
-      "problem": "Disconnected digital and physical experiences. No unified design language. Store experience was not reflected digitally.",
-      "role_label": "Strategy Lead",
-      "role": "Lead Design Strategist",
-      "role_description": "I led Design Thinking sessions, established the design system, and coordinated omnichannel experience design.",
-      "process_title": "The Systemic Solution",
-      "process_description": "I created a complete library of components and design tokens to ensure consistency across all platforms.",
+      "context": "Malva is a premium fashion brand with 16 physical stores and a growing digital presence. The experience across channels was inconsistent, with no unified design language or scalable system to support growth.",
+      "problem_label": "Problem",
+      "problem": "The lack of a unified system caused inconsistencies between physical and digital experiences, slowed down product development, and made it difficult to scale new features across platforms.",
+      "role_label": "My Role",
+      "role": "Lead Product Designer",
+      "role_description": "I led the definition of a scalable design system, facilitated alignment between stakeholders, and ensured the system could support both digital and physical touchpoints.",
+      "process_title": "Hypothesis & Approach",
+      "process_description": "We hypothesized that creating a unified design system aligned with brand and operational needs would improve consistency, reduce design and development time, and enable scalable product growth.",
       "process_steps": [
-        "Ethnographic research in physical stores.",
-        "Design system architecture (Design Tokens).",
-        "Component library development in Figma."
+        "Conducted field research in physical stores to understand the brand experience.",
+        "Audited existing digital assets to identify inconsistencies.",
+        "Defined design principles aligned with brand identity and user expectations.",
+        "Built a scalable system using design tokens and reusable components."
       ],
-      "process_image": "/malva_process.png",
-      "results_title": "Strategic Outcomes",
+      "process_image": "/malva_process_01.png",
+      "decisions_title": "Key Product Decisions",
+      "decisions": [
+        {
+          "title": "Define a unified design language",
+          "description": "Created a consistent visual and interaction system to align digital platforms with the in-store brand experience."
+        },
+        {
+          "title": "Build a scalable component system",
+          "description": "Developed reusable components and design tokens to standardize UI and accelerate future product development."
+        },
+        {
+          "title": "Align system with operational needs",
+          "description": "Ensured the system worked across multiple teams (design, development, marketing), reducing friction in implementation."
+        },
+        {
+          "title": "Enable omnichannel consistency",
+          "description": "Connected digital and physical touchpoints to create a seamless and recognizable brand experience."
+        }
+      ],
+      "results_title": "Outcome",
+      "results_description": "The implementation of the design system improved consistency, accelerated delivery, and enabled scalable product development.",
+      "period": "2023",
       "metrics": [
         {
           "number": "16",
-          "label": "Stores",
-          "desc": "Fully unified digital branding"
-        },
-        {
-          "number": "100%",
-          "label": "Sync",
-          "desc": "Between web and mobile apps"
+          "label": "Stores aligned",
+          "desc": "Unified brand experience across all physical and digital channels."
         },
         {
           "number": "30%",
-          "label": "Faster",
-          "desc": "Development speed with system"
+          "label": "Faster delivery",
+          "desc": "Reduced design and development time through reusable components."
+        },
+        {
+          "number": "100%",
+          "label": "Design consistency",
+          "desc": "Standardized UI patterns across platforms."
         }
       ],
-      "learning": "Omnichannel isn't about having the same button in all places—it's about consistent logic, familiar patterns, and seamless transitions."
+      "learning_quote": "Systems are not just design tools—they are product enablers.",
+      "learning": "A design system is not only about visual consistency, but about enabling teams to move faster and build scalable products. Aligning design decisions with operational needs is key to long-term product success.",
+      "decision_images": [
+        {
+          "url": "/malva_decision_01.png",
+          "caption": "Design System Foundations"
+        },
+        {
+          "url": "/malva_decision_02.png",
+          "caption": "Component Library"
+        }
+      ]
     }
   },
   "caseStudyLabels": {
@@ -297,43 +378,59 @@
     "final_learning": "Final Learning",
     "wanna_know_more": "Want to know more about this project?",
     "contact_btn": "Contact Me",
-    "footer_copy": "Designed with a user-centered approach."
+    "footer_copy": "Designed with a user-centered approach.",
+    "trust_design": "Trust-Focused Design",
+    "frictionless_ux": "Frictionless UX",
+    "process_analysis": "Process Analysis: Finding Visualization",
+    "key_decisions": "Key Decisions",
+    "decisions_default": "We prioritized functional experience over cluttered visual solutions.",
+    "learning_default": "In design, clarity is the bridge to conversion.",
+    "wireframe_label": "Wireframe: Structure",
+    "mockup_label": "Mockup: Visual"
   },
   "skills": {
     "heading": "Core Competencies",
     "groups": [
       {
-        "label": "Research & Strategy",
+        "label": "Product Thinking",
         "items": [
-          "UX Research",
-          "User Interviews",
+          "Problem Definition",
+          "Feature Prioritization",
+          "Stakeholder Alignment",
+          "Product Delivery"
+        ]
+      },
+      {
+        "label": "UX Foundations",
+        "items": [
+          "User Research",
           "Usability Testing",
-          "A/B Testing",
-          "Strategic Design",
-          "Heatmaps",
-          "Usability Test"
+          "Information Architecture",
+          "Interaction Design"
         ]
       },
       {
-        "label": "Design & Prototyping",
+        "label": "Business Impact",
         "items": [
-          "Figma",
-          "Prototyping",
-          "Design Systems",
-          "AI Prototyping",
-          "Stitch",
-          "Design Prompting",
-          "Wireframing"
+          "Conversion Optimization",
+          "Ecommerce Performance",
+          "Funnel Improvement"
         ]
       },
       {
-        "label": "Product & Delivery",
+        "label": "Tools",
         "items": [
-          "Product Thinking",
-          "Agile / Scrum",
-          "Prototype Deployment",
-          "Firebase",
-          "Project Management"
+          "Figma, Maze, Miro",
+          "Notion, Asana",
+          "Shopify",
+          "Claude Code, Antigravity"
+        ]
+      },
+      {
+        "label": "Data & Tech",
+        "items": [
+          "Web Analytics",
+          "Generative AI for design workflows"
         ]
       }
     ]

@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { HiArrowRight, HiUsers, HiCreditCard, HiHome, HiTrendingUp } from 'react-icons/hi';
 import { useLang } from '../context/LangContext';
 import Logo from './Logo';
+import HeroGraphic from './HeroGraphic';
 
 const HeroSection = () => {
   const { t } = useLang();
@@ -26,8 +27,8 @@ const HeroSection = () => {
 
       {/* Hero Section */}
       <section className="flex-grow flex flex-col justify-center px-6 py-12 md:py-24">
-        <div className="max-w-[1400px] mx-auto w-full">
-          <div className="lg:w-2/3 flex flex-col items-start text-left">
+        <div className="max-w-[1400px] mx-auto w-full flex flex-col lg:flex-row items-center gap-12 lg:gap-8 justify-between">
+          <div className="lg:w-[55%] flex flex-col items-start text-left z-10">
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -64,6 +65,17 @@ const HeroSection = () => {
               >
                 {t.hero.cta_secondary}
               </a>
+            </motion.div>
+          </div>
+
+          <div className="lg:w-[40%] w-full flex justify-center z-10">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className="w-full"
+            >
+              <HeroGraphic />
             </motion.div>
           </div>
         </div>
