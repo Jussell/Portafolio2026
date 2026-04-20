@@ -1,16 +1,34 @@
-# React + Vite
+# Juan Lozano - Product Design Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Hola! Soy Juan Lozano, un **Product Designer** apasionado por crear experiencias digitales innovadoras, centradas en el usuario y visualmente impactantes. 
 
-Currently, two official plugins are available:
+Este repositorio contiene el código fuente de mi portafolio profesional, el cual no solo muestra mis proyectos de diseño, sino también mi capacidad para adaptarme, utilizar nuevas tecnologías e integrarme en flujos de trabajo de desarrollo modernos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Sobre la Creación de este Portafolio
 
-## React Compiler
+Este portafolio es un testimonio de mi enfoque integral hacia el diseño de productos. Para llevar esta visión a la realidad, gestioné el proyecto de inicio a fin combinando diseño estratégico con herramientas de desarrollo de vanguardia:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Diseño Visual e Interacción (Figma):** 
+   Ideé y diseñé por completo la interfaz de usuario, los sistemas de diseño y los prototipos utilizando Figma. Cada detalle visual fue pensado para ofrecer una experiencia estética, dinámica y altamente responsiva.
 
-## Expanding the ESLint configuration
+2. **Desarrollo Asistido por IA (Antigravity):**
+   El código fue construido utilizando **Antigravity**, un asistente de programación IA avanzado. Lideré el proceso de desarrollo estructurando los componentes, definiendo la arquitectura visual y guiando a la IA para traducir fielmente mis diseños de Figma a código funcional y pixel-perfect.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **Despliegue y Configuración (Terminal & Firebase):**
+   Fui responsable de la configuración del entorno, la gestión de versiones en Git y el despliegue del proyecto. Mediante comandos de terminal, configuré Firebase Hosting y establecí flujos de integración continua (CI/CD) con GitHub Actions, demostrando autonomía en la gestión técnica del producto.
+
+## 🛠️ Stack Tecnológico
+
+- **Diseño:** Figma
+- **Frontend:** React.js, Vite, Tailwind CSS, Framer Motion
+- **Infraestructura:** Firebase Hosting, GitHub Actions
+- **Herramientas AI:** Antigravity 
+
+## 🌐 Ver en Vivo
+
+Puedes explorar mi portafolio en línea aquí:
+**[https://juanlozanoportfolio.web.app](https://juanlozanoportfolio.web.app)**
+
+---
+
+*Diseñado y gestionado técnica y visualmente por Juan Lozano.*
