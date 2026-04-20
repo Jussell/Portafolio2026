@@ -9,7 +9,7 @@ import Logo from './Logo';
 const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw5JvUCm4rcj0s8OsKraUVQQEVLRUCydgIA-Nys-KXjMxbH97xj6UizwZmfqSm27i49/exec";
 
 // TODO: Reemplaza esto con tu Clave de Sitio (Site Key) de Google reCAPTCHA
-const RECAPTCHA_SITE_KEY = "PON_TU_SITE_KEY_AQUI";
+const RECAPTCHA_SITE_KEY = "6LeXasAsAAAAACiIJB7QsbWvltJDhpjp-kjNjohk";
 
 const ContactSection = () => {
   const { t } = useLang();
@@ -37,7 +37,7 @@ const ContactSection = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     if (!recaptchaToken) {
       alert("Por favor, verifica que no eres un robot.");
       return;
@@ -130,7 +130,7 @@ const ContactSection = () => {
                 className="w-full p-6 rounded-xl bg-surface border-none focus:ring-2 focus:ring-accent/50 transition-all font-medium resize-none"
               />
             </div>
-            
+
             <div className="flex justify-center mt-2 mb-2">
               <ReCAPTCHA
                 ref={recaptchaRef}
