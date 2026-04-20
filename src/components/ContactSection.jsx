@@ -161,13 +161,13 @@ const ContactSection = () => {
           </form>
 
           <div className="mt-12 pt-12 border-t border-surface flex flex-wrap justify-center gap-8">
-            <a href="#" className="flex items-center gap-2 text-primary font-bold hover:text-accent transition-colors">
+            <a href="https://www.linkedin.com/in/juanlozanol/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary font-bold hover:text-accent transition-colors">
               <HiLink /> LinkedIn
             </a>
-            <a href="#" className="flex items-center gap-2 text-primary font-bold hover:text-accent transition-colors">
+            <a href="https://www.behance.net/juanlozanolamus" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary font-bold hover:text-accent transition-colors">
               <HiOutlineGlobeAlt /> Behance
             </a>
-            <a href="mailto:mateo@example.com" className="flex items-center gap-2 text-primary font-bold hover:text-accent transition-colors">
+            <a href="mailto:juanlozanolamus@gmail.com" className="flex items-center gap-2 text-primary font-bold hover:text-accent transition-colors">
               <HiMail /> Email
             </a>
           </div>
