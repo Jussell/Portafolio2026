@@ -175,18 +175,20 @@ const UnifiedCaseStudy = ({ data }) => {
                   ))}
                 </ul>
               </div>
-              <div className="w-full md:w-1/2 bg-slate-900 rounded-3xl p-4 shadow-2xl overflow-hidden group">
-                <div className="bg-slate-800 rounded-2xl overflow-hidden aspect-video relative">
-                  <div className="absolute inset-0 bg-gradient-to-tr from-accent/40 via-blue-400/20 to-transparent"></div>
-                  <img
-                    className="w-full h-full object-cover mix-blend-overlay opacity-80 group-hover:scale-110 transition-transform duration-700"
-                    src={data.process_image || data.image}
-                    alt="Process Visualization"
-                  />
-                  <div className="absolute bottom-4 left-4 right-4 bg-white/10 backdrop-blur-md p-3 rounded-lg border border-white/20">
-                    <p className="text-xs text-white font-medium">{labels.process_analysis}</p>
+              <div className="w-full md:w-1/2">
+                <div className="bg-[#0A2540] rounded-3xl p-4 shadow-2xl overflow-hidden group">
+                  <div className="bg-white rounded-2xl overflow-hidden aspect-video relative p-8 flex items-center justify-center">
+                    <img
+                      className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
+                      src={data.process_image || data.image}
+                      alt="Process Visualization"
+                    />
                   </div>
                 </div>
+                <p className="mt-4 text-sm text-slate-500 font-medium italic">
+                  <span className="text-accent mr-2">/</span>
+                  {labels.process_analysis}
+                </p>
               </div>
             </div>
 
@@ -221,22 +223,22 @@ const UnifiedCaseStudy = ({ data }) => {
                   </p>
                 </div>
               </div>
-              <div className="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="md:col-span-2 flex flex-col gap-6">
                 {data.decision_images?.map((img, i) => (
                   <div key={i} className="rounded-2xl overflow-hidden border border-slate-200 bg-white p-4 shadow-sm hover:shadow-md transition-shadow">
-                    <img className="w-full h-48 object-cover rounded-xl mb-4" src={img.url || data.image} alt={img.caption} />
+                    <img className="w-full h-auto object-contain rounded-xl mb-4" src={img.url || data.image} alt={img.caption} />
                     <p className="text-sm font-bold text-[#0A2540]">{img.caption}</p>
                   </div>
                 )) || (
                     <>
                       <div className="rounded-2xl overflow-hidden border border-slate-200 bg-white p-4 shadow-sm">
-                        <div className="w-full h-48 bg-slate-100 rounded-xl mb-4 flex items-center justify-center">
+                        <div className="w-full aspect-video bg-slate-100 rounded-xl mb-4 flex items-center justify-center">
                           <span className="text-slate-400 font-bold uppercase tracking-widest text-xs">Wireframe</span>
                         </div>
                         <p className="text-sm font-bold text-[#0A2540]">{labels.wireframe_label}</p>
                       </div>
                       <div className="rounded-2xl overflow-hidden border border-slate-200 bg-white p-4 shadow-sm">
-                        <div className="w-full h-48 bg-slate-100 rounded-xl mb-4 flex items-center justify-center">
+                        <div className="w-full aspect-video bg-slate-100 rounded-xl mb-4 flex items-center justify-center">
                           <span className="text-slate-400 font-bold uppercase tracking-widest text-xs">Mockup</span>
                         </div>
                         <p className="text-sm font-bold text-[#0A2540]">{labels.mockup_label}</p>

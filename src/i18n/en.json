@@ -126,14 +126,14 @@
       "image": "/kreditime_hero.png",
       "features": [
         "Behavioral Analysis",
-        "KYC Optimization",
+        "Identity Verification Optimization",
         "Conversion Funnels"
       ],
       "overview_label": "Project Overview",
       "context_label": "Context",
       "context": "Kreditime is a fintech solution integrated into ecommerce platforms to offer credit at the moment of purchase. Despite user interest, adoption was low due to friction in onboarding and lack of trust in financial interactions.",
       "problem_label": "Problem",
-      "problem": "Users dropped off during the credit onboarding process due to complex KYC requirements, unclear financial terms, and a disconnected experience from the ecommerce checkout flow.",
+      "problem": "Users dropped off during the credit onboarding process due to complex identity verification requirements, unclear financial terms, and a disconnected experience from the ecommerce checkout flow.",
       "role_label": "My Role",
       "role": "Lead Product Designer",
       "role_description": "I defined the end-to-end credit experience, conducted research (heatmaps, surveys, interviews), identified friction points, and collaborated with developers to implement improvements within real checkout environments.",
@@ -141,14 +141,14 @@
       "process_description": "We hypothesized that simplifying onboarding, improving financial clarity, and integrating the experience into checkout would increase trust and conversion.",
       "process_steps": [
         "Analyze user behavior through heatmaps and drop-off points.",
-        "Identify friction in KYC and onboarding flows.",
+        "Identify friction in identity verification and onboarding flows.",
         "Iterate solutions based on real usage patterns."
       ],
       "process_image": "/kreditime_process_01.png",
       "decisions_title": "Key Product Decisions",
       "decisions": [
         {
-          "title": "Reduce friction in KYC flow",
+          "title": "Reduce friction in identity verification flow",
           "description": "Simplified onboarding by removing unnecessary fields, introducing progressive steps, and adding real-time validation feedback to reduce cognitive load."
         },
         {
@@ -176,11 +176,11 @@
         {
           "number": "15% → 20%",
           "label": "Conversion Rate",
-          "desc": "Improved conversion by integrating credit into checkout and reducing drop-off during KYC."
+          "desc": "Improved conversion by integrating credit into checkout and reducing drop-off during identity verification."
         },
         {
           "number": "↓ Drop-off",
-          "label": "KYC Abandonment",
+          "label": "Identity Verification Abandonment",
           "desc": "Significant reduction in abandonment during identity verification stages."
         }
       ],

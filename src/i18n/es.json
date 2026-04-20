@@ -126,14 +126,14 @@
       "image": "/kreditime_hero.png",
       "features": [
         "Análisis de Comportamiento",
-        "Optimización de KYC",
+        "Optimización de Verificación de Identidad",
         "Embudos de Conversión"
       ],
       "overview_label": "Resumen del Proyecto",
       "context_label": "Contexto",
       "context": "Kreditime es una solución fintech integrada en plataformas de comercio electrónico para ofrecer crédito en el momento de la compra. A pesar del interés de los usuarios, la adopción era baja debido a la fricción en el proceso de registro y la falta de confianza.",
       "problem_label": "El Problema",
-      "problem": "Los usuarios abandonaban durante el proceso de onboarding debido a requisitos de KYC complejos, términos financieros poco claros y una experiencia desconectada del flujo de pago del ecommerce.",
+      "problem": "Los usuarios abandonaban durante el proceso de onboarding debido a requisitos de verificación de identidad complejos, términos financieros poco claros y una experiencia desconectada del flujo de pago del ecommerce.",
       "role_label": "Mi Rol",
       "role": "Diseñador de Producto Principal",
       "role_description": "Definí la experiencia de crédito de principio a fin, realicé investigaciones (mapas de calor, encuestas, entrevistas), identifiqué puntos de fricción y colaboré con los desarrolladores para implementar mejoras en entornos de checkout reales.",
@@ -141,14 +141,14 @@
       "process_description": "Nuestra hipótesis fue que al simplificar el onboarding, mejorar la claridad financiera e integrar la experiencia en el checkout se aumentaría la confianza y la conversión.",
       "process_steps": [
         "Análisis del comportamiento de los usuarios a través de mapas de calor.",
-        "Identificación de fricciones en los flujos de KYC y onboarding.",
+        "Identificación de fricciones en los flujos de verificación de identidad y onboarding.",
         "Iteración de soluciones basadas en patrones de uso reales."
       ],
       "process_image": "/kreditime_process_01.png",
       "decisions_title": "Decisiones Clave del Producto",
       "decisions": [
         {
-          "title": "Reducción de fricción en el flujo KYC",
+          "title": "Reducción de fricción en el flujo de verificación de identidad",
           "description": "Se simplificó el onboarding eliminando campos innecesarios, introduciendo pasos progresivos y añadiendo validación en tiempo real para reducir la carga cognitiva."
         },
         {
@@ -180,7 +180,7 @@
         },
         {
           "number": "↓ Abandono",
-          "label": "Abandono de KYC",
+          "label": "Abandono de Verificación de Identidad",
           "desc": "Reducción significativa del abandono durante las etapas de verificación de identidad."
         }
       ],
