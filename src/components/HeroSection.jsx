@@ -41,10 +41,18 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
-              className="font-display font-medium text-xl md:text-[32px] leading-tight text-text-main max-w-[800px]"
+              className="font-display font-medium text-[18px] leading-tight text-text-main max-w-[800px] mb-4"
             >
-              {t.hero.title} | {t.hero.subtitle}
+              {t.hero.title}
             </motion.h2>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.15 }}
+              className="font-display font-normal text-[16px] leading-relaxed text-text-main max-w-[800px]"
+            >
+              {t.hero.subtitle}
+            </motion.p>
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}

@@ -47,7 +47,7 @@ const TimelineCV = () => {
             </div>
             <div>
               <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-primary mb-3">{t.timeline.senior_title}</h2>
-              <p className="text-lg leading-relaxed text-muted max-w-[480px]">
+              <p className="text-[14px] leading-[20px] text-muted max-w-[480px]">
                 {t.timeline.description}
               </p>
             </div>
