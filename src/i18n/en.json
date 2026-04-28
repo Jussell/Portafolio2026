@@ -26,14 +26,14 @@
     },
     {
       "number": "50%",
-      "label": "reduction in discovery friction",
-      "company": "Onda de Mar",
+      "label": "reduction in navigation friction at",
+      "company": "Onda de Mar to find product",
       "icon": "trending_down"
     },
     {
-      "number": "30%",
-      "label": "faster product delivery",
-      "company": "Malva",
+      "number": "Malva",
+      "label": "more efficient",
+      "company": "and scalable developments",
       "icon": "bolt"
     }
   ],
