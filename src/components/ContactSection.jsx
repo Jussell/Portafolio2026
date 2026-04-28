@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { HiMail, HiOutlineGlobeAlt, HiLink } from 'react-icons/hi';
+import { HiMail, HiLink } from 'react-icons/hi';
 import ReCAPTCHA from 'react-google-recaptcha';
 import { useLang } from '../context/LangContext';
 import Logo from './Logo';
@@ -164,9 +164,7 @@ const ContactSection = () => {
             <a href="https://www.linkedin.com/in/juanlozanol/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary font-bold hover:text-accent transition-colors">
               <HiLink /> LinkedIn
             </a>
-            <a href="https://www.behance.net/juanlozanolamus" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary font-bold hover:text-accent transition-colors">
-              <HiOutlineGlobeAlt /> Behance
-            </a>
+
             <a href="mailto:juanlozanolamus@gmail.com" className="flex items-center gap-2 text-primary font-bold hover:text-accent transition-colors">
               <HiMail /> Email
             </a>
